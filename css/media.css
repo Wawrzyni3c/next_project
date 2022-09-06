@@ -1,0 +1,40 @@
+@media(max-width: 540px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+
+@media(min-width: 540px) and (max-width: 720px){
+    .col-md-12 {
+        width: 100%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+@media(min-width: 720px) and (max-width: 1240px){
+    .col-lg-12 {
+        width: 100%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+}
+
+.row{
+    display: flex;
+    flex-basis: 1;
+    width: 100%;
+}
